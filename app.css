@@ -1,0 +1,131 @@
+html
+{
+    font-family: 'Open Sans',sans-serif;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #60a9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.panel
+{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 7px 30px black;
+    padding: 15px 25px;
+    max-width: 100%;
+    width: 1300px;
+    display: flex;
+}
+
+.pricing-plan
+{
+    padding: 25px;
+    padding-left: 5px;
+    text-align: center;
+    align-self: center;
+    align-content: center;
+}
+.pricing-plan:nth-of-type(2)
+{
+    border-left: solid 1px gray;
+    border-right: solid 1px gray;
+}
+
+.pricing-img
+{
+    height: 40%;
+    width: 80%;
+}
+
+.pricing-header
+{
+    text-transform: uppercase;
+    font-size: large;
+    color: gray;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.pricing-features
+{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.pricing-features-item
+{
+    margin: 20px;
+    color: #60a9ef;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-top: 15px;
+    border-top: solid 2px lightgray;
+}
+
+.pricing-features-item:nth-of-type(2n)
+{
+    border-bottom: solid 2px lightgray;
+    padding-bottom: 20px;
+}
+
+.pricing-price
+{
+    font-size: larger;
+    display: block;
+    color: blue;
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.pricing-button
+{
+    display: block;
+    border: solid 1.5px #60a9ff;
+    font-size: 1.5em;
+    border-radius: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 7.5px 30px;
+    width: fit-content;
+    margin-left: 28%;
+    margin-top: 20px;
+}
+
+.pricing-button-is-featured
+{
+    display: block;
+    border-radius: 10px;
+    border: solid 1.5px #60a9ff;
+    background-color: #60a9ef;
+    text-decoration: none;
+    width: fit-content;
+    color: white;
+    padding: 7.5px 30px;
+    font-size: 1.5em;
+    margin-left: 28%;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+#midimg
+{
+    height: inherit;
+}
+
+#li1
+{
+    margin-bottom: 0px;
+}
+
+#one
+{
+    margin-bottom: 30px;
+}
